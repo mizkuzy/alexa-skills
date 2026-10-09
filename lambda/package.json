@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node --test"
   },
   "dependencies": {
     "ask-sdk-core": "^2.14.0",

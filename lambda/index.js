@@ -125,4 +125,4 @@ exports.handler = Alexa.SkillBuilders.custom()
   .withApiClient(new Alexa.DefaultApiClient())
   .lambda();
 
-exports.plan = plan;
+Object.assign(exports, { plan, isValidEvent, buildReminder, LaunchRequestHandler, MessageReceivedHandler });
