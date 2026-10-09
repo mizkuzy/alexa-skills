@@ -1,0 +1,21 @@
+# deps
+node_modules/
+
+# secrets and local config
+.env
+.env.*
+*.pem
+*.key
+secrets*
+.clasprc.json
+.ask/
+ask-resources.local.json
+
+# personal ids (userId, client id/secret) — keep out of repo
+config.local.*
+
+# os / editor / logs
+.DS_Store
+.idea/
+.vscode/
+*.log
